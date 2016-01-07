@@ -2,7 +2,7 @@ ageCalculator <- function(x) {
 	# Function to calculate age from birth year
 	# x (numeric) is the year you were born
 	if(!is.numeric(x)) {
-		stop("x must be of class numeric")
+		stop("x must be of class numeric!")
 	} else { # x is numeric
 		# Get today's date
 		date <- Sys.Date()
