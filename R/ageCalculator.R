@@ -9,7 +9,7 @@ ageCalculator <- function(x) {
 		# extract year from date and subtract
 		year <- as.numeric(format(date, "%Y"))
 		if(year <= x) {
-			stop("You aren't born yet!")
+			stop("You aren't born yet!!")
 		}
 		age <- year - x
 	}
